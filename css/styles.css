@@ -3,10 +3,30 @@
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 31px;  
   letter-spacing: 0.03em;
   color: #2196F3;
+  text-decoration: none;
   }
+  .title-color2 {
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #212121;
+  }
+  .title-color2-ft {
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+  }
+
   .links {
     font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -15,6 +35,8 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: #212121;
+text-decoration: none;
+
   }
   .links-highlighted {
     font-family: 'Roboto', sans-serif;
@@ -23,7 +45,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
+text-decoration: none;
 color: #2196F3;
   }
   
@@ -34,7 +56,7 @@ color: #2196F3;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  
+  text-decoration: none;
   color: #757575;
 
  }
@@ -45,7 +67,7 @@ color: #2196F3;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  
+  text-decoration: none;
   color: #2196F3;
   
  }
@@ -57,7 +79,7 @@ color: #2196F3;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
-  
+  text-decoration: none;
   letter-spacing: 0.03em;
   
   color: #757575;
@@ -68,13 +90,12 @@ color: #2196F3;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px;
-/* identical to box height, or 162% */
-
 text-align: center;
 letter-spacing: 0.03em;
-
-color: #FFFFFF;
+color: #212121;
+text-decoration: none;
  }
+
  .body-img {
   width: 370px;
   height: 294px;
@@ -114,6 +135,10 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
   }
+  .box {
+    width: 1600px;
+    background: #2F303A;
+  }
   
   .sec1-big-logo {
     font-family: 'Roboto', sans-serif;
@@ -135,12 +160,13 @@ font-weight: bold;
 font-size: 16px;
 line-height: 30px;
 color: #FFFFFF;
-
+text-decoration: none;
 display: flex;
 align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
-
+width: 200px;
+background: #2196F3;
+text-align: center;
   }
   .main-sec2-h3 {
     font-family: 'Roboto', sans-serif;
@@ -226,6 +252,10 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #757575;
+  }
+  .footer-bg {
+    width: 1600px;
+    background: #2F303A;
   }
 
   
